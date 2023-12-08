@@ -38,13 +38,19 @@ _return output_ kode ini mengembalikan string yang berisi output.
 
 ### Penjelasan Code
 Kode Python di atas adalah program yang akan meminta pengguna untuk memasukkan jumlah angka yang ingin diuji. Kemudian, program akan meminta pengguna untuk memasukkan angka tersebut satu per satu. Setelah itu, program akan menentukan apakah angka tersebut positif, negatif, atau nol.
+
 _jumlah_angka = int(input("Masukkan jumlah angka yang ingin diuji: "))_ kode ini meminta pengguna untuk memasukkan jumlah angka yang ingin diuji. Input dari pengguna akan disimpan ke dalam variabel _jumlah_angka_.
+
 _for _ in range(jumlah_angka):_ kode ini memulai perulangan _for_. Perulangan ini akan iterasi sebanyak _jumlah_angka_ kali.
+
 _angka = float(input("Masukkan angka: "))_ kode ini meminta pengguna untuk memasukkan angka. Input dari pengguna akan disimpan ke dalam variabel _angka_.
+
 _if angka > 0:
   print("Angka positif.")_ kode ini memeriksa apakah nilai angka lebih besar dari 0. Jika demikian, kode akan mencetak _"Angka positif."_
- _elif angka < 0:
+
+_elif angka < 0:
   print("Angka negatif.")_ kode ini memeriksa apakah nilai angka lebih kecil dari 0. Jika demikian, kode akan mencetak _"Angka negatif."_ 
+
 _else:
   print("Nol.")_ kode ini akan mencetak _"Nol"_ jika nilai angka sama dengan 0.
 ### Screenshot Output
@@ -64,16 +70,24 @@ b) Bagian kedua adalah perulangan while. Perulangan ini akan terus berjalan sela
 Pada setiap iterasi, kode akan meminta pengguna untuk memasukkan angka. Input dari pengguna akan disimpan ke dalam variabel angka. Kemudian, kode akan memeriksa apakah angka tersebut positif, negatif, atau nol.
 
 Berikut adalah penjelasan baris kode secara lebih rinci:
+
 _jumlah_angka = int(input("Masukkan jumlah angka yang ingin diuji: "))_ kode ini meminta pengguna untuk memasukkan jumlah angka yang ingin diuji. Input dari pengguna akan disimpan ke dalam variabel _jumlah_angka_.
+
 _counter = 0_ kode ini menginisialisasi variabel counter ke nilai _0_.
+
 _while counter < jumlah_angka:_ kode ini memulai perulangan while. Perulangan ini akan terus berjalan selama nilai counter kurang dari _jumlah_angka_.
+
 _angka = float(input("Masukkan angka: "))_ kode ini meminta pengguna untuk memasukkan angka. Input dari pengguna akan disimpan ke dalam variabel _angka_.
+
 _if angka > 0:
   print("Angka positif.")_  kode ini memeriksa apakah nilai angka lebih besar dari 0. Jika demikian, kode akan mencetak _"Angka positif."_
+
 _elif angka < 0:
   print("Angka negatif.")_ kode ini memeriksa apakah nilai angka lebih kecil dari 0. Jika demikian, kode akan mencetak _"Angka negatif."_
+
 _else:
   print("Nol.")_ kode ini akan mencetak _"Nol"_ jika nilai angka sama dengan 0.
+
 _counter += 1_ kode ini menambah nilai _counter_ sebesar 1.
 
 Perbedaan antara kode ini dengan kode sebelumnya adalah penggunaan perulangan _while_. Perulangan _while_ akan terus berjalan selama kondisi yang diberikan terpenuhi. Dalam hal ini, kondisi yang diberikan adalah nilai _counter_ kurang dari _jumlah_angka_.
@@ -88,10 +102,12 @@ Perbedaan antara kode ini dengan kode sebelumnya adalah penggunaan perulangan _w
 Kode Python di atas adalah program yang akan membuat variabel dengan tipe data array dan menampilkan semua nilai dalam variabel menggunakan perulangan for.
 
 Berikut adalah penjelasan baris kode secara lebih rinci:
-
 _my_array = [10, 20, 30, 40, 50]_ kode ini membuat variabel my_array dengan tipe data array. Nilai-nilai dalam variabel my_array adalah _10, 20, 30, 40, dan 50_.
+
 _for value in my_array:_ kode ini memulai perulangan for. Perulangan ini akan iterasi sebanyak jumlah nilai dalam variabel _my_array_.
+
 _print(value)_ kode ini mencetak nilai _value_ pada setiap iterasi.
 ### Screenshot Output
 <img width="53" alt="3,2" src="https://github.com/DewiMargiani/praktikumpbo/assets/150019055/f966732f-230a-4fb2-bfc0-d7cca43a3f7c">
+
 Pada contoh ini, variabel _my_array_ berisi lima nilai. Oleh karena itu, perulangan _for_ akan iterasi sebanyak lima kali. Pada setiap program, nilai _value_ akan berganti sesuai dengan nilai pada indeks program saat ini.
