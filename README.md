@@ -13,12 +13,17 @@ Fungsi ini terdiri dari dua bagian utama:
 a) Bagian pertama adalah deklarasi variabel _output_. Variabel ini akan digunakan untuk menyimpan output dari fungsi.
 b) Bagian kedua adalah perulangan for. Perulangan ini akan iterasi dari 1 hingga 100.
 Pada setiap iterasi, kode akan memeriksa apakah nilai i habis dibagi 10. Jika demikian, kode akan mencetak nama yang diberikan sebanyak tiga kali. Jika tidak, kode akan mencetak nilai i.
+
 _def main(name)_: Baris kode ini mendefinisikan fungsi main(). Fungsi ini menerima satu argumen berupa nama dan mengembalikan string yang berisi output.
+
 _for i in range(1, 101)_: kode ini memulai perulangan for. Perulangan ini akan iterasi dari 1 hingga 100.
+
 _if i % 10 == 0:
   output += f"{name}\n" * 3_ , kode ini memeriksa apakah nilai i habis dibagi 10. Jika demikian, kode akan mencetak nama yang diberikan sebanyak tiga kali.
- _else:
+
+_else:
   output += str(i) + "\n"_ ,  kode ini akan mencetak nilai i.
+
 _return output_ kode ini mengembalikan string yang berisi output.
 ### Screenshot Output
 <img width="151" alt="perulangan1" src="https://github.com/DewiMargiani/praktikumpbo/assets/150019055/b73b4c28-533b-4ec0-a965-f55641d5deed">
